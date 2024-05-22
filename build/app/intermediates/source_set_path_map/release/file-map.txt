@@ -1,0 +1,17 @@
+com.libelium.libelium_dashboards.app-jetified-window-1.0.0-beta04-0 /home/acano/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/res
+com.libelium.libelium_dashboards.app-core-1.10.1-1 /home/acano/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/res
+com.libelium.libelium_dashboards.app-jetified-window-java-1.0.0-beta04-2 /home/acano/.gradle/caches/transforms-3/142c24f2530665bb6deb4123ab140714/transformed/jetified-window-java-1.0.0-beta04/res
+com.libelium.libelium_dashboards.app-lifecycle-runtime-2.3.1-3 /home/acano/.gradle/caches/transforms-3/25a884faa36a531a9e5f369d596bbf88/transformed/lifecycle-runtime-2.3.1/res
+com.libelium.libelium_dashboards.app-browser-1.5.0-4 /home/acano/.gradle/caches/transforms-3/a3fbb37dd5ef93c98bc80ddf0289d0af/transformed/browser-1.5.0/res
+com.libelium.libelium_dashboards.app-jetified-annotation-experimental-1.3.0-5 /home/acano/.gradle/caches/transforms-3/ae329bc8a0eb87982c4fe41e3ec5da7f/transformed/jetified-annotation-experimental-1.3.0/res
+com.libelium.libelium_dashboards.app-webkit-1.5.0-6 /home/acano/.gradle/caches/transforms-3/f99dc48b3ea8edae36406ebb90659a14/transformed/webkit-1.5.0/res
+com.libelium.libelium_dashboards.app-main-7 /home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/res
+com.libelium.libelium_dashboards.app-release-8 /home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/release/res
+com.libelium.libelium_dashboards.app-pngs-9 /home/acano/AndroidStudioProjects/libelium_dashboard7/build/app/generated/res/pngs/release
+com.libelium.libelium_dashboards.app-resValues-10 /home/acano/AndroidStudioProjects/libelium_dashboard7/build/app/generated/res/resValues/release
+com.libelium.libelium_dashboards.app-rs-11 /home/acano/AndroidStudioProjects/libelium_dashboard7/build/app/generated/res/rs/release
+com.libelium.libelium_dashboards.app-mergeReleaseResources-12 /home/acano/AndroidStudioProjects/libelium_dashboard7/build/app/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.libelium.libelium_dashboards.app-mergeReleaseResources-13 /home/acano/AndroidStudioProjects/libelium_dashboard7/build/app/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.libelium.libelium_dashboards.app-merged_res-14 /home/acano/AndroidStudioProjects/libelium_dashboard7/build/app/intermediates/merged_res/release
+com.libelium.libelium_dashboards.app-packaged_res-15 /home/acano/AndroidStudioProjects/libelium_dashboard7/build/url_launcher_android/intermediates/packaged_res/release
+com.libelium.libelium_dashboards.app-packaged_res-16 /home/acano/AndroidStudioProjects/libelium_dashboard7/build/webview_flutter_android/intermediates/packaged_res/release

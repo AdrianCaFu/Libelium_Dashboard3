@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.libelium.libelium_dashboards"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:2:5-66
+11-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:3:5-78
+12-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:3:22-76
+13    <!--
+14         Required to query activities that can process text, see:
+15         https://developer.android.com/training/package-visibility?hl=en and
+16         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+17
+18         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+19    -->
+20    <queries>
+20-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:42:5-47:15
+21        <intent>
+21-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:43:9-46:18
+22            <action android:name="android.intent.action.PROCESS_TEXT" />
+22-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:44:13-72
+22-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:44:21-70
+23
+24            <data android:mimeType="text/plain" />
+24-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:45:13-50
+24-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:45:19-48
+25        </intent>
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.10.1] /home/acano/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+29        android:name="com.libelium.libelium_dashboards.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.10.1] /home/acano/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.10.1] /home/acano/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.libelium.libelium_dashboards.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.10.1] /home/acano/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.10.1] /home/acano/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+33
+34    <application
+35        android:name="android.app.Application"
+35-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:6:9-42
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.10.1] /home/acano/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+37        android:icon="@mipmap/launcher_icon"
+37-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:8:9-45
+38        android:label="libelium_dashboards"
+38-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:5:9-44
+39        android:usesCleartextTraffic="true" >
+39-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:7:9-44
+40        <activity
+40-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:9:9-30:20
+41            android:name="com.libelium.libelium_dashboards.MainActivity"
+41-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:10:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:14:13-163
+43            android:exported="true"
+43-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:11:13-36
+44            android:hardwareAccelerated="true"
+44-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:15:13-47
+45            android:launchMode="singleTop"
+45-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:12:13-43
+46            android:screenOrientation="portrait"
+46-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:17:13-49
+47            android:theme="@style/LaunchTheme"
+47-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:13:13-47
+48            android:windowSoftInputMode="adjustResize" >
+48-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:16:13-55
+49
+50            <!--
+51                 Specifies an Android theme to apply to this Activity as soon as
+52                 the Android process has started. This theme is visible to the user
+53                 while the Flutter UI initializes. After that, this theme continues
+54                 to determine the Window background behind the Flutter UI.
+55            -->
+56            <meta-data
+56-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:22:13-25:17
+57                android:name="io.flutter.embedding.android.NormalTheme"
+57-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:23:15-70
+58                android:resource="@style/NormalTheme" />
+58-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:24:15-52
+59
+60            <intent-filter>
+60-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:26:13-29:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:27:17-68
+61-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:27:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:28:17-76
+63-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:28:27-74
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+70-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:33:9-35:33
+71            android:name="flutterEmbedding"
+71-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:34:13-44
+72            android:value="2" />
+72-->/home/acano/AndroidStudioProjects/libelium_dashboard7/android/app/src/main/AndroidManifest.xml:35:13-30
+73
+74        <activity
+74-->[:url_launcher_android] /home/acano/AndroidStudioProjects/libelium_dashboard7/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+75            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+75-->[:url_launcher_android] /home/acano/AndroidStudioProjects/libelium_dashboard7/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+76            android:exported="false"
+76-->[:url_launcher_android] /home/acano/AndroidStudioProjects/libelium_dashboard7/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+77            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+77-->[:url_launcher_android] /home/acano/AndroidStudioProjects/libelium_dashboard7/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+78
+79        <uses-library
+79-->[androidx.window:window:1.0.0-beta04] /home/acano/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+80            android:name="androidx.window.extensions"
+80-->[androidx.window:window:1.0.0-beta04] /home/acano/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+81            android:required="false" />
+81-->[androidx.window:window:1.0.0-beta04] /home/acano/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+82        <uses-library
+82-->[androidx.window:window:1.0.0-beta04] /home/acano/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+83            android:name="androidx.window.sidecar"
+83-->[androidx.window:window:1.0.0-beta04] /home/acano/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0-beta04] /home/acano/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+85    </application>
+86
+87</manifest>

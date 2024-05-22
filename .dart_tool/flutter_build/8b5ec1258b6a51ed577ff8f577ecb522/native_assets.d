@@ -1,0 +1,1 @@
+ /home/acano/AndroidStudioProjects/libelium_dashboard6/.dart_tool/flutter_build/8b5ec1258b6a51ed577ff8f577ecb522/native_assets.yaml: 
